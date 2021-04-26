@@ -20,4 +20,12 @@ RSpec.describe "bisiesto" do
     it "deberia devolver false para el año 589" do
         expect(es_bisiesto(589)).to eq(false)
     end
+
+    it "deberia devolver false para el año 1969" do
+        expect(es_bisiesto(1969)).to eq(false)
+    end
+
+    it "deberia devolver true para el año 2012" do
+        expect(es_bisiesto(2012)).to eq(true)
+    end
 end 
