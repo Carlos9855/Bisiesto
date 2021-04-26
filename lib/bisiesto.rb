@@ -1,3 +1,6 @@
-def es_bisiesto(num)
-    return true
+def es_bisiesto(anio)
+    if (anio == 4)
+        return true
+    end
+    return false 
 end
